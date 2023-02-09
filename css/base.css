@@ -5,8 +5,10 @@
   --color-grey: rgba(33, 56, 66, 0.6);
   --color-greylight: #d4d6d4;
 
+  --color-green: #4d533c;
+
   --container-width: 1200px;
-  --container-padding: 15px;
+  --container-padding: 30px;
 }
 
 body {
@@ -15,13 +17,14 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #fff;
-  background-color: cadetblue;
+  color: var(--color-grey);
+  background-color: #fff;
 }
 
 h1,
 h2 {
   font-weight: 700;
+  color: var(--color-green);
 }
 
 h1 {
@@ -37,6 +40,11 @@ h2 {
 .container {
   max-width: var(--container-width);
   padding: 0 var(--container-padding);
+  margin: 0 auto;
+}
+
+.container-item {
+  max-width: 1530px;
   margin: 0 auto;
 }
 

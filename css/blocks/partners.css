@@ -1,0 +1,14 @@
+.partners {
+  position: relative;
+  width: 88%;
+  bottom: 116px;
+  background: #ffffff;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+  border-radius: 2px;
+}
+
+.partners-row {
+  display: flex;
+  column-gap: 66px;
+  padding: 45px;
+}
