@@ -1,0 +1,24 @@
+.home {
+  background-image: url(/img/home.png);
+  padding-top: 189px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 210px;
+}
+
+.home__content {
+  max-width: 616px;
+}
+
+.home__title {
+  margin: 22px 0;
+}
+
+.home__text {
+  margin-bottom: 45px;
+}
+
+.home-link {
+  color: var(--color-yellow);
+}

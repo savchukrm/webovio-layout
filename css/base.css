@@ -1,0 +1,71 @@
+:root {
+  --color-yellow: #ffd723;
+  --color-yellowlight: rgba(255, 215, 35, 0.1);
+
+  --color-grey: rgba(33, 56, 66, 0.6);
+  --color-greylight: #d4d6d4;
+
+  --container-width: 1200px;
+  --container-padding: 15px;
+}
+
+body {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  background-color: cadetblue;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 74px;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.container {
+  max-width: var(--container-width);
+  padding: 0 var(--container-padding);
+  margin: 0 auto;
+}
+
+.none {
+  display: none !important;
+}
+
+.link {
+  display: inline-flex;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1;
+  text-decoration: none;
+  color: #d4d6d4;
+  transition: color 0.3s ease-in-out;
+}
+
+.link:hover {
+  color: #ffd723;
+}
+
+.link svg {
+  width: 12px;
+  height: 12px;
+  fill: currentColor;
+  transform: translateY(1px);
+}
+
+.link span {
+  text-indent: 10px;
+  border-bottom: 2px solid currentColor;
+}
