@@ -1,0 +1,23 @@
+.get-started {
+  position: relative;
+  top: 180px;
+  width: 88%;
+  padding: 70px 0;
+  background-color: #fafafa;
+  box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
+  padding-left: calc((100% - 1140px) / 2);
+  padding-right: 15px;
+}
+
+.get-started__title {
+  margin-bottom: 50px;
+  max-width: 822px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 74px;
+  color: #4d533c;
+}
+
+.get-started-link {
+  text-transform: uppercase;
+}
