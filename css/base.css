@@ -52,6 +52,10 @@ h2 {
   display: none !important;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .link {
   display: inline-flex;
   font-weight: 600;
@@ -76,4 +80,24 @@ h2 {
 .link span {
   text-indent: 10px;
   border-bottom: 2px solid currentColor;
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 430px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  h2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
 }

@@ -24,3 +24,74 @@
 .home-link {
   color: var(--color-yellow);
 }
+
+@media (max-width: 1000px) {
+  .home {
+    padding-bottom: 115px;
+  }
+  .home__title {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .home__content {
+    width: 470px;
+  }
+  .home__title {
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 575px) {
+  .home {
+    padding-bottom: 85px;
+  }
+
+  .home__content {
+    width: 380px;
+  }
+
+  .home__title {
+    line-height: 45px;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 420px) {
+  .home {
+    padding-top: 130px;
+  }
+
+  .home__content {
+    width: 300px;
+    margin: 0;
+  }
+
+  .home__title {
+    line-height: 40px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    padding: 0px 10px;
+  }
+
+  .home {
+    padding-top: 130px;
+  }
+
+  .home__content {
+    width: 290px;
+  }
+
+  .home__title {
+    line-height: 35px;
+  }
+
+  .home__text {
+    font-size: 14px;
+  }
+}

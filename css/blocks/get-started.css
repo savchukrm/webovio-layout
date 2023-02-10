@@ -21,3 +21,29 @@
 .get-started-link {
   text-transform: uppercase;
 }
+
+@media (max-width: 913px) {
+  .get-started {
+    position: static;
+    width: 100%;
+  }
+
+  .get-started__title {
+    font-size: 50px;
+    line-height: 65px;
+  }
+}
+
+@media (max-width: 700px) {
+  .get-started__title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 500px) {
+  .get-started__title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}

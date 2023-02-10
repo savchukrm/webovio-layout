@@ -152,3 +152,40 @@
   justify-content: space-between;
   padding: 24px 0;
 }
+
+@media (max-width: 992px) {
+  .footer__middle {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-column:last-child::before {
+    display: none;
+  }
+}
+
+@media (max-width: 913px) {
+  .footer {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer__middle {
+    --grip-grap: 40px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer-mail {
+    font-size: 20px;
+  }
+
+  .logo {
+    width: 65%;
+  }
+}
