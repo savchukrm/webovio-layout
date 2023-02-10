@@ -43,3 +43,15 @@
   height: 2px;
   background-color: var(--color-yellow);
 }
+
+@media (max-width: 800px) {
+  .header__nav {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .header__logo img {
+    max-width: 200px;
+  }
+}

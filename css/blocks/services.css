@@ -1,15 +1,16 @@
 .services {
   position: relative;
-  margin: 50px 0;
+  margin-bottom: 180px;
 }
 
 .services-row {
+  position: relative;
   display: flex;
   justify-content: space-between;
 }
 
 .services__branding {
-  max-width: 475px;
+  width: 475px;
 }
 
 .branding__title {
@@ -22,7 +23,7 @@
 
 .services__feedback {
   position: absolute;
-  right: 206px;
+  right: 60px;
   bottom: -15px;
   max-width: 475px;
   z-index: -1;
@@ -40,7 +41,6 @@
 }
 
 .founder {
-  position: relative;
   margin-top: 50px;
   display: flex;
 }
@@ -56,9 +56,9 @@
 }
 
 .founder__info {
-  position: absolute;
-  right: 64px;
-  bottom: 18px;
+  position: relative;
+  top: 16px;
+  left: 38px;
 }
 
 .founder__name {
@@ -75,4 +75,64 @@
 
 #about-word {
   background: var(--color-yellowlight);
+}
+
+@media (max-width: 1100px) {
+  .services {
+    margin: 50px 0 100px;
+  }
+  .services-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .services__feedback {
+    position: static;
+    padding: 30px;
+    margin-top: 60px;
+    box-shadow: none;
+    border-left: 1px solid var(--color-greylight);
+  }
+}
+
+@media (max-width: 650px) {
+  .services {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .services {
+    margin-bottom: 30px;
+  }
+  .services__branding {
+    width: inherit;
+  }
+
+  .services__feedback {
+    margin-top: 40px;
+  }
+
+  .feedback__text {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .founder__name {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 399px) {
+  .feedback__text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .founder__info {
+    top: 1px;
+  }
+
+  .founder__name {
+    line-height: 24px;
+  }
 }
